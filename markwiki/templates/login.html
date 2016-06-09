@@ -49,7 +49,7 @@ user information.</p>
   {% endif %}
 
   {# Only the login page will be used for non-authenticated Persona users. #}
-  {% if not current_user.is_authenticated() %}
+  {% if not current_user.is_authenticated %}
   navigator.id.watch({
     loggedInUser: null,
     onlogin: App.verifyAssertion,

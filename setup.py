@@ -21,7 +21,7 @@ if __name__ == '__main__':
     install_requires = [
         'argparse==1.2.1',
         'Flask==0.10.1',
-        'Flask-Login==0.2.9',
+        'Flask-Login==0.3.2',
         'Flask-WTF==0.9.4',
         'Frozen-Flask==0.11',
         'Markdown==2.3.1',
